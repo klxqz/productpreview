@@ -16,7 +16,7 @@
 
 
         {literal}
-        <p>{shopProductpreviewPlugin::display($product_id)} - Код хелпера вывода, $product_id - идентификатор товара, обязательный параметр</p>
+        <p>{shopProductpreviewPlugin::display($p.id)} - Код хелпера вывода, $p.id - идентификатор товара, обязательный параметр</p>
         {/literal}
 
 
@@ -61,7 +61,7 @@
                 Файл шаблона
             </div>
             <div class="value">
-                <input type="text" name="shop_productpreview[template_name]" value="product.html" >
+                <input type="text" name="shop_productpreview[template_name]" value="{$settings.template_name|escape}" >
             </div>
         </div>
 
@@ -70,7 +70,7 @@
             <div class="name">Шаблон предварительного просмотра<br /><span class="hint">HTML + Smarty</span></div>
             <div class="value no-shift">
                 <div id="s-editor-core-wrapper">
-                    <textarea id="sf-template-frontend" class="body" name="templates[frontend]">{$templates.frontend.template}</textarea>
+                    <textarea id="sf-template-frontend" class="body" name="templates[frontend]">{$templates.frontend.template|escape}</textarea>
                 </div>
             </div>
 
@@ -86,7 +86,7 @@
             <div class="name">Шаблон ссылки<br /><span class="hint">HTML + Smarty</span></div>
             <div class="value no-shift">
                 <div id="s-editor-core-wrapper">
-                    <textarea id="sf-template-display" class="body" name="templates[display]">{$templates.display.template}</textarea>
+                    <textarea id="sf-template-display" class="body" name="templates[display]">{$templates.display.template|escape}</textarea>
                 </div>
             </div>
             {if $templates.display.change_tpl}
@@ -112,7 +112,7 @@
             <div class="name">Стиль кнопки<br /><span class="hint">HTML + Smarty</span></div>
             <div class="value no-shift">
                 <div id="s-editor-core-wrapper">
-                    <textarea id="sf-template-css" class="body" name="templates[css]">{$templates.css.template}</textarea>
+                    <textarea id="sf-template-css" class="body" name="templates[css]">{$templates.css.template|escape}</textarea>
                 </div>
             </div>
             {if $templates.css.change_tpl}
