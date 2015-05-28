@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: shop/plugins/productpreview\n"
+"POT-Creation-Date: 2013-03-10 12:19+0400\n"
+"PO-Revision-Date: \n"
+"Last-Translator: shop/plugins/productpreview\n"
+"Language-Team: shop/plugins/productpreview\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n"
+"%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.7.4\n"
+"Language: ru_RU\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: /wa-apps/shop/themes/default/product.html:129
+msgid "Tags"
+msgstr "Теги"
+
+#: /wa-apps/shop/themes/default/product.html:9
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: /wa-apps/shop/themes/default/product.html:8
+msgid "Overview"
+msgstr "Обзор"
+
+#: /wa-apps/shop/themes/default/product.html:102
+msgid "Add to cart"
+msgstr "В корзину"
+
+#: /wa-apps/shop/themes/default/product.html:109
+msgid "Add to comparison table"
+msgstr "Добавить к сравнению"
+
+#: /wa-apps/shop/themes/default/product.html:110
+msgid "Remove from comparison table"
+msgstr "Удалить из сравнения"
+
+#: /wa-apps/shop/themes/default/product.html:111
+msgid "Compare"
+msgstr "Сравнить"
+
+#: /wa-apps/shop/themes/default/product.html:121
+msgid "categories"
+msgstr "категории"
+
+#: /wa-apps/shop/themes/default/product.html:176
+msgid "%s reviews"
+msgstr "%s отзывы"
+
+#: /wa-apps/shop/themes/default/product.html:179
+msgid "Read <a href=\"%s\">all %d review</a> on %s"
+msgid_plural "Read <a href=\"%s\">all %d reviews</a> on %s"
+msgstr[0] "Посмотрите <a href=\"%s\">%d отзыв</a> о %s"
+msgstr[1] "Посмотрите <a href=\"%s\">все %d отзыва</a> о %s"
+msgstr[2] "Посмотрите <a href=\"%s\">все %d отзывов</a> о %s"
+
+#: /wa-apps/shop/themes/default/product.html:181
+msgid "Be the first to <a href=\"%s\">write a review</a> of this product!"
+msgstr "Оставьте <a href=\"%s\">отзыв об этом товаре</a> первым!"
+
+#: /wa-apps/shop/themes/default/product.html:7
+msgid "Average user rating: %s / 5"
+msgstr "Средняя оценка покупателей: %s / 5"
+
+#: /wa-apps/shop/themes/default/product.html:260
+msgid "See also"
+msgstr "Рекомендуем посмотреть"
+
+#: /wa-apps/shop/themes/default/product.html:268
+msgid "Customers who bought %s also bought"
+msgstr "Покупатели, которые приобрели %s, также купили"
+
+#: /wa-apps/shop/themes/default/product.html:106
+msgid "Buy %s"
+msgstr "Купить %s"
+
+#: /wa-apps/shop/themes/default/product.html:94
+msgid "Only %d left in stock"
+msgid_plural "Only %d left in stock"
+msgstr[0] "Осталась %d штука"
+msgstr[1] "Осталось %d штуки"
+msgstr[2] "Осталось %d штук"
+
+#: /wa-apps/shop/themes/default/product.html:76
+msgid "This product is not available for purchase"
+msgstr "Этот товар временно недоступен для заказа"
+
+#: /wa-apps/shop/themes/default/product.html:282
+msgid "Compare all"
+msgstr "Сравнить все"
+
+#: /wa-apps/shop/themes/default/product.html:144
+msgid "Product with the selected option combination is not available for purchase"
+msgstr "Товар с выбранным набором характеристик недоступен для покупки"
+
+#: /wa-apps/shop/themes/default/product.html:161
+msgid "Average customer rating:"
+msgstr "Средняя оценка покупателей:"
+
+#: /wa-apps/shop/themes/default/product.html:163
+msgid "%s out of 5 stars"
+msgstr "%s из 5 звезд"
+
+#: /wa-apps/shop/themes/default/product.html:182
+msgid "no rate"
+msgstr "без оценки"
+
+#: /wa-apps/shop/templates/actions/products/Products.html:147
+msgid "In stock"
+msgstr "В наличии"
+
+#: /wa-apps/shop/templates/actions/product/Product.html:593
+msgid "Out of stock"
+msgstr "Нет в наличии"
+
+msgid "Almost out of stock"
+msgstr "Почти закончилось"
+
+#: /wa-apps/shop/templates/actions/product/Product.html:595
+msgid "Low stock"
+msgstr "Есть, но мало"
+
+msgid "Pre-order only"
+msgstr "Под заказ"
+
+#: /wa-apps/shop/themes/default/product.cart.html:170
+msgid "Buy"
+msgstr "Купить"
+
+#: /wa-apps/shop/themes/default/product.cart.html:123
+msgid "Only a few items left"
+msgstr "Осталось несколько штук"
+
+#: /wa-apps/shop/themes/default/product.cart.html:190
+msgid "Buy now"
+msgstr "Купить"
